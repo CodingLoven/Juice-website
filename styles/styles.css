@@ -56,7 +56,7 @@ h6 {
 
 .btn:hover {
     color: #000;
-    background: rgba(240, 240, 240, 0.726);
+    background: #141111b9;
     border: 1px solid #000;
 }
 
@@ -68,9 +68,64 @@ main {
 
 .sec1  {
     background:#fff;
-    display: flex;
+    display: inline-flex;
+    margin-left: 3rem;
 }
 
 .content {
-    width: 50%;
+    width: 46%;
+    font-size: 17px;
+    color: #5c1010;
+    font-weight: bold;
+    margin-top: 2rem;
+}
+
+.content h1 {
+    font-size: 52px;
+    color: #5c1010;
+    margin-bottom: 0;
+}
+
+.orange {
+    width: 40%;
+    height: 20%;
+    margin-left: 6rem;
+}
+
+.orange img {
+    width: 100%;
+    height: auto;
+}
+
+.content button {
+    border: 1px solid #5c1010;
+    background: #5c1010;
+    padding: 10px 10px;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#discount {
+    border: 1px solid #5c1010;
+    background: #ffffad;
+    padding: 10px 10px;
+    color: #5c1010;
+    font-weight:;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#discount:hover {
+    background: #5c1010;
+    color: #fff;
+    border: 1px solid #000;
+}
+
+.content button:hover {
+    color: #5c1010;
+    background: #ffffad;
+    border: 1px solid #000;
 }
