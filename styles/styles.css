@@ -160,7 +160,7 @@ main {
 
 .pineapple {
     width: 30%;
-    height: 10%;
+    height: 30%;
     background-color: #f1870e;
     border-radius: 12px;
 }
@@ -176,6 +176,7 @@ main {
     height: 30%;
     background: #f1870e;
     border-radius: 12px;
+    margin-left: 2rem;
 }
 
 .raspberry img {
@@ -186,12 +187,14 @@ main {
 
 .watermelon {
     width: 30%;
-    height: 30%;
+    height: 50%;
     background: #f1870e;
     border-radius: 12px;
+    margin-left: 2rem;
 }
 
 .watermelon img {
     width: 100%;
     height: auto;
+    position: relative;
 }
