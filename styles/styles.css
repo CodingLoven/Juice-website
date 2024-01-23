@@ -112,7 +112,6 @@ main {
     background: #ffffad;
     padding: 10px 10px;
     color: #5c1010;
-    font-weight:;
     font-size: 15px;
     border-radius: 5px;
     cursor: pointer;
@@ -128,4 +127,71 @@ main {
     color: #5c1010;
     background: #ffffad;
     border: 1px solid #000;
+}
+
+.sec2 {
+    display: flex;
+    margin-top: 2rem;
+    background: #ffffad;
+}
+
+.sec2_div {
+    width: 50%;
+    margin-left: 3rem;
+}
+
+.sec2_div h3 {
+    font-size: 42px;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 0;
+    color: #5c1010;
+}
+
+.sec2_div p {
+    font-size: 17px;
+    color: #5c1010;
+    font-weight: lighter;
+}
+.imgs {
+    display: flex;
+    margin-left: 2rem;
+}
+
+.pineapple {
+    width: 30%;
+    height: 10%;
+    background-color: #f1870e;
+    border-radius: 12px;
+}
+
+.pineapple img {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.raspberry {
+    width: 30%;
+    height: 30%;
+    background: #f1870e;
+    border-radius: 12px;
+}
+
+.raspberry img {
+    width: 100%;
+    position: relative;
+    height: auto;
+}
+
+.watermelon {
+    width: 30%;
+    height: 30%;
+    background: #f1870e;
+    border-radius: 12px;
+}
+
+.watermelon img {
+    width: 100%;
+    height: auto;
 }
