@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
 header {
     display: flex;
     width: 100vw;
@@ -55,7 +62,7 @@ h6 {
 }
 
 .btn:hover {
-    color: #000;
+    color: #fff;
     background: #141111b9;
     border: 1px solid #000;
 }
@@ -129,72 +136,93 @@ main {
     border: 1px solid #000;
 }
 
+/* section 2 starts here */
+
 .sec2 {
     display: flex;
-    margin-top: 2rem;
+    margin-top: 1rem;
     background: #ffffad;
+    height: 50vh;
+    padding-top: 2rem;
 }
 
 .sec2_div {
-    width: 50%;
+    width: 30%;
     margin-left: 3rem;
 }
 
 .sec2_div h3 {
-    font-size: 42px;
+    font-size: 52px;
     font-weight: bold;
     text-align: left;
     margin-bottom: 0;
     color: #5c1010;
+    line-height: 0.8;
 }
 
 .sec2_div p {
-    font-size: 17px;
+    font-size: 18px;
     color: #5c1010;
     font-weight: lighter;
 }
+
 .imgs {
     display: flex;
-    margin-left: 2rem;
+    margin-left: 7.5rem;
+    width: 50%;
 }
 
 .pineapple {
-    width: 30%;
-    height: 30%;
-    background-color: #f1870e;
+    width: 70%;
+    height: 60%;
+    background-color: #FEBA09;
     border-radius: 12px;
+    position: relative;
+    margin-top: 2rem;
+    backdrop-filter: blur(50px);
 }
 
 .pineapple img {
-    width: 100%;
+    width: 95%;
     height: auto;
-    position: relative;
+    position: absolute;
+    margin-top: 2rem;
+    object-fit: cover;
+    margin-left: 0.6rem;
 }
 
 .raspberry {
-    width: 30%;
-    height: 30%;
-    background: #f1870e;
+    width: 70%;
+    height: 60%;
+    background: #FEBA09;
     border-radius: 12px;
     margin-left: 2rem;
+    margin-top: 6rem;
+    position: relative;
+    backdrop-filter: blur(50px);
 }
 
 .raspberry img {
-    width: 100%;
-    position: relative;
+    width: 30%;
     height: auto;
+    position: absolute;
+    margin-top: 1.5rem;
+    margin-left: 4rem;
 }
 
 .watermelon {
-    width: 30%;
-    height: 50%;
-    background: #f1870e;
+    width: 70%;
+    height: 60%;
+    background: #FEBA09;
     border-radius: 12px;
     margin-left: 2rem;
+    margin-top: 2rem;
+    position: relative;
+    backdrop-filter: blur(50px);
 }
 
 .watermelon img {
     width: 100%;
     height: auto;
-    position: relative;
+    margin-top: 2.5rem;
 }
