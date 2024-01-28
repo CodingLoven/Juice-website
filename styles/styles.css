@@ -310,10 +310,16 @@ main {
 
 /* The footer section starts here */
 
-footer {
+.footer_sec {
     background: #ffffad;
     width: 100%;
     display: flex;
+    margin-top: 2rem;
+}
+
+footer {
+    background: #ffffad;
+
 }
 
 .contact {
@@ -374,10 +380,19 @@ textarea {
     width: 50%;
 }
 
+.ft_links {
+    margin-left: -2rem;
+}
 
 .ft_links a {
     color: #000;
+    line-height: 1.8;
+    text-decoration: none;
+    font-size: 17px;
+}
 
+.ft_links a:hover {
+    color: #5c1010;
 }
 
 .ft_links h2{
@@ -401,6 +416,7 @@ textarea {
 .call {
     display: flex;
     margin-left: 2rem;
+    color: #5c1010;
 }
 
 .call p {
@@ -418,4 +434,23 @@ textarea {
     width: 7rem;;
     height: 6rem;
     margin-left: 3rem;
+}
+
+.icons {
+    display: flex; 
+    margin-left: 3rem;
+    margin-top: 1rem;
+    justify-content: center;
+}
+
+.icons img {
+    width: 2rem;
+    height: 1rem;  
+    margin-top: 1rem
+}
+
+.icons p {
+    margin-left: 1rem;
+    font-size: 14px;
+    color: #5c1010;
 }
